@@ -1,3 +1,23 @@
 langgraph
 ipykernel
 IPython
+# Core LangChain & tools
+langchain
+langchain-core
+langchain-community
+
+# PDF Loading
+pypdf
+pdfminer.six
+
+# Sentence Transformers for Embedding
+sentence-transformers
+
+# For OpenAI-compatible or Groq LLaMA endpoints
+openai
+
+# Optional for file handling and I/O
+python-magic  # (optional, for better MIME detection)
+tqdm          # (progress bars)
+uvicorn       # if running with FastAPI
+fastapi       # if building a web interface
