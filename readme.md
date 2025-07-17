@@ -1,10 +1,15 @@
 LangGraph Agentic Models Practice
+
 Author: Harsh Srivastava
+
 Handle: horus-bot
+
 Purpose: Practice repository for LangGraph agentic model implementations
+
 
 📖 Overview
 This repository contains various implementations of AI agents using LangGraph, demonstrating different patterns and use cases for building intelligent, tool-enabled conversational systems. Each project explores different aspects of agentic AI development, from basic chatbots to sophisticated RAG (Retrieval-Augmented Generation) systems.
+
 
 🏗️ Project Structure
 🚀 Key Features
@@ -12,19 +17,23 @@ This repository contains various implementations of AI agents using LangGraph, d
 Performs arithmetic operations (addition, subtraction, multiplication)
 Demonstrates tool calling with LangGraph state management
 Uses ChatGroq with Llama-3.3-70b-versatile model
+
 2. RAG System (rag/ragModel.ipynb)
 Document-based question answering
 PDF processing with vector embeddings
 ChromaDB for persistent vector storage
 Contextual search with citation support
+
 3. Email Automation Agent (emailAgent.ipynb)
 Automated email composition and sending
 SMTP integration with Gmail
 Natural language email generation
-4. Conditional Routing (2nd_level_contion.ipynb)
+
+4 Conditional Routing (2nd_level_contion.ipynb)
 Multi-level decision trees
 Complex workflow orchestration
 Dynamic routing based on user input
+
 🛠️ Technology Stack
 Component	Technology
 Framework	LangGraph
@@ -33,10 +42,12 @@ Vector Database	ChromaDB
 Embeddings	HuggingFace (all-MiniLM-L6-v2)
 Document Processing	PyPDF, LangChain
 Email	SMTP, aiosmtplib
+
 📋 Installation
 Prerequisites
 Environment Setup
 Create a .env file in the root directory:
+
 
 🎯 Quick Start
 1. Mathematical Tools Agent
@@ -72,32 +83,43 @@ Conditional Routing: Dynamic decision making
 Vector Databases: Efficient document retrieval
 Multi-turn Conversations: Context preservation
 Error Handling: Graceful failure management
+
 🚨 Common Issues & Solutions
 Module Import Errors
+
 API Key Issues
+
 Ensure .env file is in the correct location
+
 Verify API key validity
+
 Check environment variable loading
+
 Tool Execution Errors
-Validate tool function signatures
-Check tool registration with LLM
+
+
 Verify tool call arguments
+
+
 🤝 Contributing
 This is a personal learning repository. Feel free to:
 
 Fork and experiment
+
 Submit improvements
+
 Share feedback and suggestions
+
 Add new agent patterns
+
 📚 Resources
 LangGraph Documentation
 LangChain Documentation
 ChatGroq API
 ChromaDB Documentation
+
 📄 License
 Educational and research use. Please follow respective API terms of service.
 
 Happy Coding! 🚀
 Building the future of AI agents with LangGraph
-
-Last updated: January 2025
